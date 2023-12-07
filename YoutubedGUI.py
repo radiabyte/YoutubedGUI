@@ -21,7 +21,7 @@ debug=False
 currentloc=str(os.getcwd())
 req=currentloc+'\Downloaded'
 if os.path.exists(req)==False:
-    os.system('md Downloaded')
+    os.mkdir('Downloaded')
 
           
 ctk.set_appearance_mode("Dark")
